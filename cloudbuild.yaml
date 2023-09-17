@@ -1,6 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/git'
-  args: ['clone', 'https://source.developers.google.com/p/indu-1234/r/suryansh-saisree']
+  args: ['clone', 'https://github.com/rajinikanth007/suryansh-saisree
+']
 
 - name: 'gcr.io/cloud-builders/docker'
   args: [ 'build', '-t', 'gcr.io/${_PROJECT_ID}/${_IMAGE_NAME}:${_SHORT_SHA}', '.' ]
