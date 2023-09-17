@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/git'
-  args: ['clone', 'git@github.com:rajinikanth007/suryansh-saisree.git
+  args: ['clone', '
 ']
 
 - name: 'gcr.io/cloud-builders/docker'
